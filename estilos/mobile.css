@@ -1,0 +1,119 @@
+@charset "UTF-8";
+
+/*       Verçao mobile    */
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: rgb(250, 134, 154);
+    background-image: url(../bg-intro-mobile.png);
+    text-align: center;
+    color: white;
+}
+
+#textos {
+    margin-top: 5%;
+}
+
+#dias-gratis {
+    background-color: rgba(68, 68, 184, 0.873);
+    margin-top: 10%;
+    margin-bottom: 40px;
+    border: 1px solid black;
+    display: inline-block;
+    width: 90%;
+    height: 10vh;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.562);
+}
+
+#dias-gratis > p {
+    margin-top: 4%;
+}
+
+#dias-gratis:hover {
+    cursor: pointer;
+}
+
+#formulario {
+    background-color: white;
+    width: 90%;
+    height: 70vh;
+    display: inline-block;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.562);
+}
+
+#formulario > p {
+    margin-top: 13%;
+    color: black;
+    font-size: 10px;
+}
+
+#formulario > p > a {
+    color: rgb(242, 100, 124);
+    text-decoration: none;
+}
+
+#eprimeiro-nome {
+    margin-top: 10%;
+    width: 60%;
+    height: 6vh;
+}
+
+#eultimo-nome {
+    margin-top: 5%;
+    width: 60%;
+    height: 6vh;
+}
+
+
+#email {
+    margin-top: 5%;
+    width: 60%;
+    height: 6vh;
+}
+
+#esenha {
+    margin-top: 5%;
+    width: 60%;
+    height: 6vh;
+}
+
+#entrar {
+    border: none;
+    background-color: rgb(100, 209, 100);
+    margin-top: 5%;
+    width: 60%;
+    height: 6vh;
+}
+
+input {
+    border: 2px solid rgb(202, 196, 196);
+    border-radius: 5px;
+    padding: 2px;
+}
+
+input:focus {
+    border: 3px solid rgb(154, 154, 210) !important; 
+}
+
+
+
+input:valid {
+    border: 2px solid green;
+    
+}
+
+
+
+
+    
+
+
+
+
