@@ -9,7 +9,7 @@
 }
 
 body {
-    background-color: rgb(252, 177, 188);
+    background-color: rgba(252, 177, 188, 0.623);
     background-image: url(/images/bg-intro-mobile.png);
     text-align: center;
     color: white;
